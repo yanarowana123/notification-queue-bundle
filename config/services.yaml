@@ -1,11 +1,19 @@
-services:
-  _defaults:
-    autowire: true
-    autoconfigure: true
-
-  Like\NotificationQueueBundle\:
-    resource: '../src/'
-
 parameters:
-  messenger.mapping:
-    push_notification: 'Like\NotificationQueueBundle\Message\PushNotificationMessage'
+    messenger:
+        push_notification: 'Like\NotificationQueueBundle\Message\PushNotificationMessage'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Like\NotificationQueueBundle\:
+        resource: '../src/'
+
+    Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer:
+        class: Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer
+        arguments:
+            - '%messenger%'
+
+
+
