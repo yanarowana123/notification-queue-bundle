@@ -36,5 +36,13 @@
       "*": "dist"
     },
     "sort-packages": true
+  },
+  "extra": {
+    "symfony": {
+      "endpoint": [
+        "https://api.github.com/repos/yanarowana123/notification-queue-bundle-recipe/contents/index.json",
+        "flex://defaults"
+      ]
+    }
   }
 }
