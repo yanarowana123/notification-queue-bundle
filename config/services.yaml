@@ -1,6 +1,6 @@
-parameters:
-    messenger:
-        push_notification: 'Like\NotificationQueueBundle\Message\PushNotificationMessage'
+#parameters:
+#    messenger:
+#        push_notification: 'Like\NotificationQueueBundle\Message\PushNotificationMessage'
 
 services:
     _defaults:
@@ -10,10 +10,10 @@ services:
     Yanarowana123\NotificationQueueBundle\:
         resource: '../src/'
 
-    Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer:
-        class: Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer
-        arguments:
-            - '%messenger%'
+#    Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer:
+#        class: Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer
+#        arguments:
+#            - '%messenger%'
 
 
 
