@@ -1,8 +1,8 @@
 <?php
 
-namespace Like\NotificationQueueBundle;
+namespace Yanarowana123\NotificationQueueBundle;
 
-use Like\NotificationQueueBundle\DependencyInjection\NotificationQueueExtension;
+use Yanarowana123\NotificationQueueBundle\DependencyInjection\NotificationQueueExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

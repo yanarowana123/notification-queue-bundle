@@ -1,6 +1,6 @@
 <?php
 
-namespace Like\NotificationQueueBundle\DependencyInjection;
+namespace Yanarowana123\NotificationQueueBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

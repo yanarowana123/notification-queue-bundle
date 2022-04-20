@@ -1,10 +1,10 @@
 {
-  "name": "like/notification-queue-bundle",
+  "name": "yanarowana123/notification-queue-bundle",
   "description": "notification queue bundle",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Like\\NotificationQueueBundle\\": "src/"
+      "Yanarowana123\\NotificationQueueBundle\\": "src/"
     }
   },
   "require": {

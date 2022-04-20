@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Like\NotificationQueueBundle\Serializer\Messenger;
+namespace Yanarowana123\NotificationQueueBundle\Serializer\Messenger;
 
 use RuntimeException;
 use Symfony\Component\Messenger\Envelope;

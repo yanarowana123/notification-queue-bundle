@@ -1,6 +1,6 @@
 <?php
 
-namespace Like\NotificationQueueBundle\Message;
+namespace Yanarowana123\NotificationQueueBundle\Message;
 
 final class PushNotificationMessage
 {

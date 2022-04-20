@@ -1,6 +1,6 @@
 <?php
 
-namespace Like\NotificationQueueBundle\DependencyInjection;
+namespace Yanarowana123\NotificationQueueBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

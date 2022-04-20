@@ -7,7 +7,7 @@ services:
         autowire: true
         autoconfigure: true
 
-    Like\NotificationQueueBundle\:
+    Yanarowana123\NotificationQueueBundle\:
         resource: '../src/'
 
     Like\NotificationQueueBundle\Serializer\Messenger\MessageSerializer:

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Like\NotificationQueueBundle\Messenger;
+namespace Yanarowana123\NotificationQueueBundle\Messenger;
 
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
