@@ -8,7 +8,7 @@
   "is_contrib": true,
   "_links": {
     "repository": "github.com/yanarowana123/flex",
-    "origin_template": "{package}:{version}@github.com/yanarowana123/flex:master",
+    "origin_template": "{package}:{version}@github.com/yanarowana123/flex:dev",
     "recipe_template": "https://api.github.com/repos/yanarowana123/flex/contents/{package_dotted}.{version}.json"
   }
 }
