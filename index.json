@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "like/notification-queue-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "dev",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/yanarowana123/flex",
+    "origin_template": "{package}:{version}@github.com/yanarowana123/flex:master",
+    "recipe_template": "https://api.github.com/repos/yanarowana123/flex/contents/{package_dotted}.{version}.json"
+  }
+}
